@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Documentation</title>
+</head>
+<body>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f5;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.docs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.doc-section {
+    background-color: #ecf0f1;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    min-width: 250px;
+}
+
+.doc-section h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #2c3e50;
+}
+
+.doc-section p {
+    color: #34495e;
+}
+    </style>
+    <header>
+        <h1>Python Documentation</h1>
+        <p>Simple Python documentation page.</p>
+    </header>
+    
+    <section class="docs">
+        <div class="doc-section">
+            <h2>Introduction</h2>
+            <p>Python is a versatile and beginner-friendly programming language known for its readability and simplicity. Developed by Guido van Rossum and released in 1991, Python has since become one of the most popular languages due to its wide range of applications and web development.</p>
+        </div>
+        <div class="doc-section">
+            <h2>Installation</h2>
+            <p>To install Python:<br>
+<b>1.Download Python:</b> Visit the <a href="https://www.python.org/downloads/">[official Python website]</a> and download the latest version for your operating system (Windows, macOS, or Linux).<br>
+
+<b>2.Run Installer:</b> Execute the downloaded installer. On Windows, make sure to check "Add Python to PATH" during installation.<br>
+
+<b>3.Verify Installation:</b>Open a terminal or command prompt and type `python --version` or `python3 --version` to confirm the installation. You should see the installed Python version.<br>
+
+<b>4.Install Packages:</b> Use `pip`, Python's package manager, to install additional libraries. For example, run `pip install numpy` to install the NumPy package.</p>
+        </div>
+        <div class="doc-section">
+            <h2>APIs</h2>
+            <p>APIs (Application Programming Interfaces) in Python allow different software applications to communicate with each other. Python provides several libraries and frameworks to work with APIs:<br>
+
+<b>1.Using Requests Library:</b>The `requests` library is commonly used to make HTTP requests to APIs. For example, you can fetch data from a web service with `requests.get()`.<br>
+
+<b>2.Flask/Django:</b> These are Python frameworks used to build your own APIs. Flask is lightweight and simple, while Django is more robust and feature-rich.<br>
+
+<b>3.JSON Handling:</b>APIs often use JSON (JavaScript Object Notation) for data exchange. Python's `json` module allows easy parsing and creation of JSON data.<br>
+
+<b>4.Authentication:</b> APIs may require authentication. Libraries like `requests` support various methods like API keys, OAuth, or tokens to handle secure connections.</p>
+        </div>
+        <div class="doc-section">
+            <h2>Integrations</h2>
+            <p>Python integrations connect your code to databases, web APIs, cloud services, and third-party tools, enabling it to interact with external systems and enhance functionality.</p>
+        </div>
+        <div class="doc-section">
+            <h2>Utilities</h2>
+            <p>Python utilities include tools for handling data, managing files, scraping websites, and automating tasks. They make it easier to work with various types of information and streamline repetitive processes..</p>
+        </div>
+        <div class="doc-section">
+            <h2>Web</h2>
+            <p>Python is widely used for web development. With frameworks like Django and Flask, you can build robust web applications and APIs. Libraries like `requests` and `BeautifulSoup` help with web scraping and interacting with web services..</p>
+        </div>
+    </section>
+</body>
+</html>
